@@ -8,3 +8,10 @@ image:
 service:
   type: ClusterIP
   port: 80
+
+ingress:
+  enabled: true
+  host: nginx.local
+  path: /nginx
+  serviceName: nginx-service
+  servicePort: 80
