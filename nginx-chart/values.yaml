@@ -12,5 +12,5 @@ service:
 ingress:
   enabled: true
   path: /nginx
-  serviceName: nginx-service
+  serviceName: ta-nginx-service
   servicePort: 80
